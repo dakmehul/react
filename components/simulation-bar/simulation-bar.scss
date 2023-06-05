@@ -1,0 +1,26 @@
+.simulation-bar {
+  bottom: 0px;
+  position: fixed;
+  width: 100vw;
+  height: 80px;
+  background-color: #008080;
+  z-index: 10;
+}
+
+.simulation-bar:hover {
+  cursor: pointer;
+}
+
+.floating-btn {
+  left: 93vw;
+  bottom: 50px;
+  position: fixed;
+  z-index: 21;
+}
+
+.badgeLocation {
+  z-index: 99;
+  left: 93.75vw;
+  bottom: 72px;
+  position: fixed !important;
+}
